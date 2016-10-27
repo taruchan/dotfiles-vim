@@ -2,14 +2,13 @@
 " Initial Setting
 " --------------------------------------------------
 
-" Download from MacVim "https://github.com/macvim-dev/macvim"
 " $ mkdir -p ~/.vim/bundle
 " $ git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 " $ vi ~/.vimrc
 " Open vim and run the following command ":NeoBundleInstall"
 
 " --------------------------------------------------
-" NeoBundle Setting [1]
+" NeoBundle Setting
 " --------------------------------------------------
 
 " Note: Skip initialization for vim-tiny or vim-small.
@@ -39,7 +38,7 @@ filetype plugin indent on
 NeoBundleCheck
 
 " --------------------------------------------------
-" Plugin
+"
 " --------------------------------------------------
 
 " Haml support
@@ -52,6 +51,7 @@ NeoBundle 'tpope/vim-endwise'
 NeoBundle 'vim-scripts/AnsiEsc.vim'
 " Auto insert
 NeoBundle 'kana/vim-smartinput'
+
 
 " --------------------------------------------------
 " Indent Setting
@@ -73,7 +73,7 @@ NeoBundle 'jpo/vim-railscasts-theme'
 set background=dark
 
 " --------------------------------------------------
-" Tab Setting
+" 
 " --------------------------------------------------
 
 set expandtab
@@ -91,7 +91,7 @@ set ruler   "Display ruler
 set number  "Display line numbers
 
 " --------------------------------------------------
-" NeoBundle Setting [2]
+"
 " --------------------------------------------------
 
 call neobundle#end()
